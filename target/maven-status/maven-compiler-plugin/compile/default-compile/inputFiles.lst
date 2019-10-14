@@ -1,0 +1,7 @@
+/home/cgi/KeepNote-Step2-Boilerplate/src/main/java/com/stackroute/keepnote/dao/NoteDAOImpl.java
+/home/cgi/KeepNote-Step2-Boilerplate/src/main/java/com/stackroute/keepnote/dao/NoteDAO.java
+/home/cgi/KeepNote-Step2-Boilerplate/src/main/java/com/stackroute/keepnote/config/WebMvcConfig.java
+/home/cgi/KeepNote-Step2-Boilerplate/src/main/java/com/stackroute/keepnote/controller/NoteController.java
+/home/cgi/KeepNote-Step2-Boilerplate/src/main/java/com/stackroute/keepnote/config/WebAppInitializer.java
+/home/cgi/KeepNote-Step2-Boilerplate/src/main/java/com/stackroute/keepnote/model/Note.java
+/home/cgi/KeepNote-Step2-Boilerplate/src/main/java/com/stackroute/keepnote/config/ApplicationContextConfig.java
