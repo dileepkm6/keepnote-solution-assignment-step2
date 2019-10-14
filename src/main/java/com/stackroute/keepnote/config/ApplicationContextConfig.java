@@ -33,6 +33,14 @@ public class ApplicationContextConfig {
 	@Bean
 	@Autowired
 	public DataSource dataSource() {
+
+		// Use this configuration while submitting solution in hobbes.
+		// dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
+		// dataSource.setUrl("jdbc:mysql://" + System.getenv("MYSQL_HOST") + ":3306/" + System.getenv("MYSQL_DATABASE")
+		// 		+"?verifyServerCertificate=false&useSSL=false&requireSSL=false");
+		// dataSource.setUsername(System.getenv("MYSQL_USER"));
+		// dataSource.setPassword(System.getenv("MYSQL_PASSWORD")); 
+
 		BasicDataSource basicDataSource = new BasicDataSource();
 		basicDataSource.setDriverClassName("com.mysql.jdbc.Driver");
 		basicDataSource.setUrl("jdbc:mysql://localhost:3306/mydatabase");
